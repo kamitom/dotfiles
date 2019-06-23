@@ -21,6 +21,13 @@
     },
     "rules": {
         "no-buffer-constructor": 0,
+        "no-unused-vars": [
+            1,
+            {
+                "ignoreSiblings": true,
+                "argsIgnorePattern": "res|next|^err"
+            }
+        ],
         "indent": [
             "error",
             2
