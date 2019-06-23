@@ -20,6 +20,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-buffer-constructor": 0,
         "indent": [
             "error",
             2
